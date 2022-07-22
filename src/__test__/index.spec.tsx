@@ -1,3 +1,5 @@
 describe('decribe', () => {
-  it('it', () => {});
+  it('it', () => {
+    expect(true).toBe(true);
+  });
 });
