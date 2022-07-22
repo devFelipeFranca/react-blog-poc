@@ -6,5 +6,5 @@ git add --all
 
 git status
 
-git commit -m "Commit $currentDate"
+git commit -m "Upload $currentDate"
 
