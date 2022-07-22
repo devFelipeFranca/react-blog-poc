@@ -8,7 +8,9 @@
     "start:build": "tsc && vite build",
     "sync": "npx typesync && bun i",
     "bundle": "vite rollup",
-    "commit": "chmod +x ./scripts/commit.sh && ./scripts/commit.sh"
+    "commit": "chmod +x ./scripts/commit.sh && ./scripts/commit.sh",
+    "test": "jest",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,6 +24,8 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
     "fs-extra": "^10.1.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
     "rollup-plugin-analyzer": "^4.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
