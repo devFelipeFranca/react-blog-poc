@@ -1,5 +1,5 @@
 currentDate=$(date '+%Y-%m-%d')
-hours=$(date +%H)
+hours=$(date +%H:%M)
 
 git status
 
