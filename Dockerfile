@@ -1,7 +1,7 @@
-FROM node:14.4
+FROM node:16.14
 
 COPY . .
 
 EXPOSE 8080
 
-CMD ["npm","start:dev"]
+CMD ["npm","run","start:dev"]

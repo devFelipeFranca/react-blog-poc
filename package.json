@@ -8,6 +8,7 @@
     "start:build": "tsc && vite build",
     "sync": "npx typesync && bun i",
     "bundle": "vite rollup",
+    "preview": "vite preview",
     "commit": "./scripts/commit.sh",
     "test": "jest --verbose",
     "prepare": "husky install",
