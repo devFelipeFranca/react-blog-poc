@@ -2,6 +2,10 @@ FROM node:16.14
 
 COPY . .
 
-EXPOSE 8080
+RUN npm install -g npm@8.15.0
 
-CMD ["npm","run","start:dev"]
+RUN yarn install
+
+EXPOSE 3000
+
+CMD ["yarn","start:dev"]

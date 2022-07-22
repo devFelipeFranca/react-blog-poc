@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-
 import analyze from 'rollup-plugin-analyzer';
 
 import fs from 'fs-extra';
@@ -21,6 +20,10 @@ const exclude: string[] = [
 ];
 
 export default defineConfig({
+  server: {
+    host: '0.0.0.0',
+    port: 3000,
+  },
   plugins: [
     react(),
     analyze({
@@ -35,4 +38,7 @@ export default defineConfig({
       filter: m => !Boolean(exclude.find(e => m.id.includes(e))),
     }),
   ],
+  build: {
+    outDir: 'dist',
+  },
 });
