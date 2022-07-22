@@ -1,5 +1,11 @@
-describe('decribe', () => {
-  it('it', () => {
-    expect(true).toBe(true);
+import { shallow } from 'enzyme';
+
+describe('App', () => {
+  describe('pages', () => {
+    describe('Index', () => {
+      it('renders correctly', () => {
+        shallow(<div></div>);
+      });
+    });
   });
 });
