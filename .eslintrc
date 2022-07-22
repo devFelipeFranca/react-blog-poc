@@ -34,9 +34,7 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "airbnb",
     "prettier",
-    "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended"
   ],
   "rules": {
