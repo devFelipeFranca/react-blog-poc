@@ -9,8 +9,10 @@
     "sync": "npx typesync && bun i",
     "bundle": "vite rollup",
     "commit": "./scripts/commit.sh",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest --verbose",
+    "prepare": "husky install",
+    "docker:build": "docker build -t react-blog-poc .",
+    "docker:run": "docker run -p 3000:3000 react-blog-poc"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
