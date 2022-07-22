@@ -5,7 +5,8 @@ import analyze from 'rollup-plugin-analyzer';
 
 import fs from 'fs-extra';
 
-const pathName = new Date().toLocaleDateString().replace(/\//g, '-');
+const date = new Date().toLocaleDateString().replace(/\//g, '-');
+const hour = new Date().toLocaleTimeString().replace(/:/g, '-');
 
 const exclude: string[] = [
   'node_modules',
@@ -25,13 +26,13 @@ export default defineConfig({
     analyze({
       hideDeps: true,
       stdout: false,
-      writeTo: (analysisString) => {
+      writeTo: analysisString => {
         fs.writeFileSync(
-          `./src/coverage/build/${pathName}.txt`,
-          analysisString
+          `./src/coverage/build/${date}:${hour}.txt`,
+          analysisString,
         );
       },
-      filter: (m) => !Boolean(exclude.find((e) => m.id.includes(e))),
+      filter: m => !Boolean(exclude.find(e => m.id.includes(e))),
     }),
   ],
 });
