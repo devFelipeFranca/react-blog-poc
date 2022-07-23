@@ -1,9 +1,6 @@
 #!/bin/bash
 
 wait
-curl  http://vault.centos.org/8-stream/BaseOS/Source/SPackages/glibc-2.28-207.el8.src.rpm | bash
-
-wait
 curl https://bun.sh/install | bash
 
 wait
