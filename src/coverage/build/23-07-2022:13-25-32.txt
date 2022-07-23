@@ -1,0 +1,24 @@
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    148.377 KB
+original size:  149.33 KB
+code reduction: 0.64 %
+module count:   23
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/App.tsx
+bundle space:    0.07 %
+rendered size:   97 Bytes
+original size:   74 Bytes
+code reduction:  0 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/main.tsx
+bundle space:    0.06 %
+rendered size:   88 Bytes
+original size:   156 Bytes
+code reduction:  43.59 %
+dependents:      1
+
