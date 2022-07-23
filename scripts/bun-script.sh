@@ -4,6 +4,9 @@ wait
 nvm install 16
 
 wait
+rpm -i --nodeps *.rpm
+
+wait
 curl https://bun.sh/install | bash
 
 wait
