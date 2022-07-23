@@ -1,0 +1,64 @@
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    258.103 KB
+original size:  261.835 KB
+code reduction: 1.43 %
+module count:   34
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/__DTO__/Post.ts
+bundle space:    0.33 %
+rendered size:   850 Bytes
+original size:   1.039 KB
+code reduction:  18.19 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/__DTO__/User.ts
+bundle space:    0.33 %
+rendered size:   843 Bytes
+original size:   1.041 KB
+code reduction:  19.02 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/__DTO__/Comment.ts
+bundle space:    0.23 %
+rendered size:   599 Bytes
+original size:   797 Bytes
+code reduction:  24.84 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/App.tsx
+bundle space:    0.17 %
+rendered size:   437 Bytes
+original size:   627 Bytes
+code reduction:  30.3 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/__DTO__/ValidateDTO.ts
+bundle space:    0.16 %
+rendered size:   410 Bytes
+original size:   504 Bytes
+code reduction:  18.65 %
+dependents:      3
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/__DTO__/Identify.ts
+bundle space:    0.06 %
+rendered size:   166 Bytes
+original size:   225 Bytes
+code reduction:  26.22 %
+dependents:      3
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/main.tsx
+bundle space:    0.03 %
+rendered size:   88 Bytes
+original size:   156 Bytes
+code reduction:  43.59 %
+dependents:      1
+
