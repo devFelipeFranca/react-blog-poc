@@ -1,7 +1,6 @@
 ### GLOBALS ###
 ARG GLIBC_RELEASE=2.34-r0
 
-
 ### GET ###
 FROM alpine:latest as get
 
@@ -43,14 +42,18 @@ RUN apk --no-cache add /tmp/glibc-${GLIBC_RELEASE}.apk && \
 
 RUN mkdir /app
 
-COPY package*.json /app
-
 WORKDIR /app
 
-RUN bun install
+RUN bun init
 
 COPY . .
 
+RUN apk --no-cache add nodejs npm
+
+# RUN npm install -g npm@8.15.0
+
+RUN bun install
+
 EXPOSE 3000
 
-CMD ["bun","start"]
+CMD ["bun", "--version"]
