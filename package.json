@@ -7,6 +7,9 @@
     "linux": "linux/amd64",
     "macos": "linux/arm64/v8"
   },
+  "engines": {
+    "node": "16.14.x"
+  },
   "scripts": {
     "start:dev": "vite --port 3000",
     "start:build": "tsc && vite build",
