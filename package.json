@@ -22,7 +22,8 @@
     "docker:run": "docker run -p 3000:3000 react-blog-poc",
     "docker:sync": "./scripts/docker-sync.sh",
     "docker:up": "./scripts/docker-up.sh",
-    "start": "vite --host"
+    "start": "vite --host",
+    "bun:install": "./scripts/bun-script.sh"
   },
   "dependencies": {
     "react": "^18.2.0",
