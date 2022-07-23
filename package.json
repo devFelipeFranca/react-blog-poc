@@ -17,7 +17,7 @@
     "prepare": "husky install",
     "docker:build": "docker build -t react-blog-poc . --platform linux/amd64",
     "docker:run": "docker run -p 3000:3000 react-blog-poc",
-    "docker:sync": "OS=linux/arm64/v8 ./scripts/docker-sync.sh",
+    "docker:sync": "./scripts/docker-sync.sh",
     "docker:up": "./scripts/docker-up.sh",
     "start": "vite --host"
   },
