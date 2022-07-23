@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>blog</div>;
+  return <div>Em breve novidades</div>;
 }
