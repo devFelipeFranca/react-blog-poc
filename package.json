@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
+  "platform": {
+    "linux": "linux/amd64",
+    "macos": "linux/arm64/v8"
+  },
   "scripts": {
     "start:dev": "vite --port 3000",
     "start:build": "tsc && vite build",
@@ -11,8 +15,10 @@
     "commit": "./scripts/commit.sh",
     "test": "jest --verbose",
     "prepare": "husky install",
-    "docker:build": "docker build -t react-blog-poc .",
+    "docker:build": "docker build -t react-blog-poc . --platform linux/amd64",
     "docker:run": "docker run -p 3000:3000 react-blog-poc",
+    "docker:sync": "./scripts/docker-sync.sh",
+    "docker:up": "./scripts/docker-up.sh",
     "start": "vite --host"
   },
   "dependencies": {
