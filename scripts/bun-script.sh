@@ -1,9 +1,6 @@
 #!/bin/bash
 
 wait
-nvm install 16
-
-wait
 rpm -i --nodeps *.rpm
 
 wait
