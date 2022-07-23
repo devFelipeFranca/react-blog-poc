@@ -1,8 +1,8 @@
 wait
-bun docker:sync
+yarn docker:sync
 
 wait
-bun docker:build
+yarn docker:build
 
 wait
-bun docker:run
+yarn docker:run
