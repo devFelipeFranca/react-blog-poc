@@ -1,0 +1,48 @@
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    172.25 KB
+original size:  217.904 KB
+code reduction: 20.95 %
+module count:   30
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/App.tsx
+bundle space:    0.07 %
+rendered size:   116 Bytes
+original size:   200 Bytes
+code reduction:  42 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/main.tsx
+bundle space:    0.05 %
+rendered size:   88 Bytes
+original size:   156 Bytes
+code reduction:  43.59 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/routers/index.routes.tsx
+bundle space:    0.05 %
+rendered size:   78 Bytes
+original size:   225 Bytes
+code reduction:  65.33 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/routers/private/index.tsx
+bundle space:    0.01 %
+rendered size:   25 Bytes
+original size:   33 Bytes
+code reduction:  24.24 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/routers/public/index.tsx
+bundle space:    0.01 %
+rendered size:   24 Bytes
+original size:   32 Bytes
+code reduction:  25 %
+dependents:      1
+

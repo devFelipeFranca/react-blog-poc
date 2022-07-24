@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import analyze from 'rollup-plugin-analyzer';
 
 import fs from 'fs-extra';
+import path from 'path';
 
 const date = new Date().toLocaleDateString().replace(/\//g, '-');
 const hour = new Date().toLocaleTimeString().replace(/:/g, '-');

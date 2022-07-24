@@ -15,11 +15,7 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "esModuleInterop": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@components/*": ["./components/*"],
-      "@assets/*": ["./assets/*"]
-    }
+    "baseUrl": "./src"
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
