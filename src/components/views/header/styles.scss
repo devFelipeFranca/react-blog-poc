@@ -1,0 +1,13 @@
+.layout-header__public {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: center;
+
+  border: 1px solid #e2e8f0;
+
+  height: 50px;
+  padding: 16px;
+}

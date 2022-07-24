@@ -14,12 +14,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "allowJs": true,
-    "esModuleInterop": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@components/*": ["./components/*"],
-      "@assets/*": ["./assets/*"]
-    }
+    "esModuleInterop": true
   },
   "include": ["src", "src/server"],
   "references": [{ "path": "./tsconfig.node.json" }]

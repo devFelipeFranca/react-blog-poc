@@ -1,0 +1,120 @@
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    1.088 MB
+original size:  1.366 MB
+code reduction: 20.33 %
+module count:   353
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/containers/layout/index.tsx
+bundle space:    0.09 %
+rendered size:   926 Bytes
+original size:   1.129 KB
+code reduction:  17.98 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/views/accordion/index.tsx
+bundle space:    0.07 %
+rendered size:   785 Bytes
+original size:   958 Bytes
+code reduction:  18.06 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/containers/form/index.tsx
+bundle space:    0.07 %
+rendered size:   775 Bytes
+original size:   643 Bytes
+code reduction:  0 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/views/drawer/index.tsx
+bundle space:    0.07 %
+rendered size:   721 Bytes
+original size:   944 Bytes
+code reduction:  23.62 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/pages/home/index.tsx
+bundle space:    0.05 %
+rendered size:   496 Bytes
+original size:   652 Bytes
+code reduction:  23.93 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/views/tabs/index.tsx
+bundle space:    0.04 %
+rendered size:   482 Bytes
+original size:   612 Bytes
+code reduction:  21.24 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/core/public/post/index.tsx
+bundle space:    0.03 %
+rendered size:   287 Bytes
+original size:   456 Bytes
+code reduction:  37.06 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/core/public/loginCTA/index.tsx
+bundle space:    0.02 %
+rendered size:   257 Bytes
+original size:   411 Bytes
+code reduction:  37.47 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/views/header/index.tsx
+bundle space:    0.02 %
+rendered size:   212 Bytes
+original size:   376 Bytes
+code reduction:  43.62 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/App.tsx
+bundle space:    0.02 %
+rendered size:   177 Bytes
+original size:   333 Bytes
+code reduction:  46.85 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/routers/index.routes.tsx
+bundle space:    0.01 %
+rendered size:   108 Bytes
+original size:   200 Bytes
+code reduction:  46 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/main.tsx
+bundle space:    0.01 %
+rendered size:   88 Bytes
+original size:   156 Bytes
+code reduction:  43.59 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/styles/global.scss
+bundle space:    0 %
+rendered size:   18 Bytes
+original size:   116 Bytes
+code reduction:  84.48 %
+dependents:      1
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+file:            /src/components/views/header/styles.scss
+bundle space:    0 %
+rendered size:   16 Bytes
+original size:   236 Bytes
+code reduction:  93.22 %
+dependents:      1
+
